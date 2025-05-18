@@ -78,7 +78,7 @@ model ExecutionLog{
 }
 model UserBalance{
   userId String @id
-  credits Int @default(0)
+  credits Int @default(500)
 }
 model Credential{
   id       String @id @default(cuid())
